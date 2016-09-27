@@ -18,7 +18,7 @@ install:
   - popd
   - pwd
   - wget https://github.com/clMathLibraries/clBLAS/archive/v2.10.zip
-  - unzip clBLAS-2.10.zip && pushd clBLAS-2.10/src && cmake . && make && sudo make install && popd
+  - unzip v2.10.zip && pushd clBLAS-2.10/src && cmake . && make && sudo make install && popd
 
 cache:
   directories:
